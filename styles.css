@@ -86,3 +86,19 @@ body {
 .return-button:hover {
     background-color: #555;
 }
+.additional-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.additional-text {
+    max-width: 600px;
+    font-size: 16px;
+    color: #9dad06c5;
+    font-style: italic;
+    font-family: fantasy;
+}
