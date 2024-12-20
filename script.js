@@ -41,7 +41,7 @@ function displayImages(option) {
         case 5:
             heading = "IMPLEMENTACION";
             images = ["./assem1.png", 
-                    "./assem2.png","./assem/assem3.png"];
+                    "./assem2.png","./assem3.png"];
                     text = "Fotos y videos del proyecto realizado.";
                     documentLink = "./assem/assemi.pdf"; // Local document link
                     break;
