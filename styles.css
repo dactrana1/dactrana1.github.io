@@ -6,12 +6,13 @@ body {
 
 /* Vertical Menu */
 .menu {
-    width: 600px;
+    width: 100%;
+    max-width: 600px;
     background-color: #333;
     color: white;
     padding: 0;
     margin: 0;
-    height: 100vh;
+    height: auto;
     overflow-y: auto;
 }
 
@@ -43,7 +44,8 @@ body {
 }
 
 .image-container img {
-    width: 300px;
+    width: 100%;
+    max-width: 400px; /* Additional container image */
     height: auto;
     border: 2px solid #ddd;
     border-radius: 5px;
@@ -88,6 +90,7 @@ body {
 }
 .additional-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: white;
@@ -101,4 +104,19 @@ body {
     color: #9dad06c5;
     font-style: italic;
     font-family: fantasy;
+}
+@media (min-width: 768px) {
+    body {
+        flex-direction: row;
+    }
+
+    .menu {
+        height: 100vh; /* Fixes the menu height for desktops */
+    }
+
+    .additional-container {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
 }
