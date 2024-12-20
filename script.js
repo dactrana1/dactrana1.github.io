@@ -10,39 +10,38 @@ function displayImages(option) {
     switch (option) {
         case 1:
             heading = "CIRCUITO IMPLEMENTADO";
-            images = ["./fpb/fp1.jpg", 
-                      "./fpb/fp2.jpg","./fpb/fp3.jpg"];
+            images = ["./fp1.jpg", 
+                      "./fp2.jpg","./fp3.jpg"];
             text = "Fotos y videos del proyecto realizado.";
             documentLink = "./fpb/ifpb.pdf"; // Local document link
-            videoLink = "./fpb/fpv.mp4"; // Local video link
             break;
         case 2:
             heading = "CIRCUITO IMPLEMENTADO";
-            images = ["./vga/vg1.jpg", 
-                      "./vga/vg2.jpg"];
+            images = ["./vg1.jpg", 
+                      "./vg2.jpg"];
                       text = "Fotos y videos del proyecto realizado.";
                       documentLink = "./VGA/vgi.pdf";
                       break;
         case 3:
             heading = "IMPLEMENTACION";
-            images = ["./fireb/fireb1.jpg", 
-                      "./fireb/fireb2.jpg"];
+            images = ["./fireb1.jpg", 
+                      "./fireb2.jpg"];
                       documentLink = "./fireb/firebi.pdf"; // Local document link
                       videoLink = "./fireb/firev.mp4"; // Local video link          
                       text = "Fotos y videos del proyecto realizado.";
             break;
         case 4:
             heading = "IMPLEMENTACION";
-            images = ["./DISC/disc1.jpg", 
-                      "./DISC/disc2.jpg"];
+            images = ["./disc1.jpg", 
+                      "./disc2.jpg"];
                       text = "Fotos y videos del proyecto realizado.";
                       documentLink = "./disc/disci.pdf"; // Local document link
                       videoLink = "./disc/discv.mp4"; // Local video link          
                       break;
         case 5:
             heading = "IMPLEMENTACION";
-            images = ["./ASSEM/assem1.png", 
-                    "./assem/assem2.png","./assem/assem3.png"];
+            images = ["./assem1.png", 
+                    "./assem2.png","./assem/assem3.png"];
                     text = "Fotos y videos del proyecto realizado.";
                     documentLink = "./assem/assemi.pdf"; // Local document link
                     break;
