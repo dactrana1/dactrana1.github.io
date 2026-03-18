@@ -13,7 +13,7 @@ function displayImages(option) {
             images = ["./fp1.jpg", 
                       "./fp2.jpg","./fp3.jpg"];
             text = "Fotos y videos del proyecto realizado.";
-            documentLink = "./fpb/ifpb.pdf"; // Local document link
+            documentLink = "./fpb/ila2.pdf"; // Local document link ./fpb/ifpb.pdf
             break;
         case 2:
             heading = "CIRCUITO IMPLEMENTADO";
