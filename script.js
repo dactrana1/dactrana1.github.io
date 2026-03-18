@@ -10,10 +10,10 @@ function displayImages(option) {
     switch (option) {
         case 1:
             heading = "CIRCUITO IMPLEMENTADO";
-            images = ["./fp1.jpg", 
-                      "./fp2.jpg","./fp3.jpg"];
+            images = ["./ens.jpg", 
+                      "./DCON.jpg"];
             text = "Fotos y videos del proyecto realizado.";
-            documentLink = "./fpb/ila2.pdf"; // Local document link ./fpb/ifpb.pdf
+            documentLink = "./ila2.pdf"; // Local document link ./fpb/ifpb.pdf
             break;
         case 2:
             heading = "CIRCUITO IMPLEMENTADO";
