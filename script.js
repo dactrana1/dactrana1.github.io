@@ -23,7 +23,7 @@ function displayImages(option) {
                       documentLink = "./Informe Lab 3.pdf";
                       break;
         case 3:
-            heading = "IMPLEMENTACION";
+            heading = "1IMPLEMENTACION";
             images = ["./fireb1.jpg", 
                       "./fireb2.jpg"];
                       documentLink = "./ila3.pdf"; // Local document link
