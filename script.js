@@ -26,7 +26,7 @@ function displayImages(option) {
             heading = "IMPLEMENTACION";
             images = ["./fireb1.jpg", 
                       "./fireb2.jpg"];
-                      documentLink = "./ila3"; // Local document link
+                      documentLink = "./ila3.pdf"; // Local document link
                       videoLink = "./fireb/firev.mp4"; // Local video link          
                       text = "Fotos y videos del proyecto realizado.";
             break;
