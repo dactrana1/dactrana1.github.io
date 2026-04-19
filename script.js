@@ -20,15 +20,15 @@ function displayImages(option) {
             //images = ["./vg1.jpg", 
              //         "./vg2.jpg"];
             //          text = "Fotos y videos del proyecto realizado.";
-                      documentLink = "./VGA/vgi.pdf";
+                      documentLink = "./Informe Lab 3.pdf";
                       break;
         case 3:
             heading = "IMPLEMENTACION";
-            images = ["./fireb1.jpg", 
-                      "./fireb2.jpg"];
-                      documentLink = "./fireb/firebi.pdf"; // Local document link
-                      videoLink = "./fireb/firev.mp4"; // Local video link          
-                      text = "Fotos y videos del proyecto realizado.";
+            //images = ["./fireb1.jpg", 
+            //          "./fireb2.jpg"];
+                      documentLink = "./ila3"; // Local document link
+             //         videoLink = "./fireb/firev.mp4"; // Local video link          
+             //         text = "Fotos y videos del proyecto realizado.";
             break;
         case 4:
             heading = "IMPLEMENTACION";
