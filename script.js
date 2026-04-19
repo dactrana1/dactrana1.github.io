@@ -9,17 +9,17 @@ function displayImages(option) {
     // Update content based on the clicked menu item
     switch (option) {
         case 1:
-            heading = "CIRCUITO IMPLEMENTADO";
-            images = ["./ens.jpg", 
-                      "./DCON.jpg"];
-            text = "Fotos y videos del proyecto realizado.";
+            heading = "PROYECTO IMPLEMENTADO";
+            //images = ["./ens.jpg", 
+           //           "./DCON.jpg"];
+            //text = "Fotos y videos del proyecto realizado.";
             documentLink = "./ila2.pdf"; // Local document link ./fpb/ifpb.pdf
             break;
         case 2:
-            heading = "CIRCUITO IMPLEMENTADO";
-            images = ["./vg1.jpg", 
-                      "./vg2.jpg"];
-                      text = "Fotos y videos del proyecto realizado.";
+            heading = "PROYECTO IMPLEMENTADO";
+            //images = ["./vg1.jpg", 
+             //         "./vg2.jpg"];
+            //          text = "Fotos y videos del proyecto realizado.";
                       documentLink = "./VGA/vgi.pdf";
                       break;
         case 3:
