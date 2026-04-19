@@ -10,25 +10,25 @@ function displayImages(option) {
     switch (option) {
         case 1:
             heading = "PROYECTO IMPLEMENTADO";
-            images = ["./ens.jpg", 
+            //images = ["./ens.jpg", 
                       "./DCON.jpg"];
-            text = "Fotos y videos del proyecto realizado.";
+            //text = "Fotos y videos del proyecto realizado.";
             documentLink = "./ila2.pdf"; // Local document link ./fpb/ifpb.pdf
             break;
         case 2:
             heading = "PROYECTO IMPLEMENTADO";
-            images = ["./vg1.jpg", 
+            //images = ["./vg1.jpg", 
                       "./vg2.jpg"];
-                      text = "Fotos y videos del proyecto realizado.";
+            //          text = "Fotos y videos del proyecto realizado.";
                       documentLink = "./Informe Lab 3.pdf";
                       break;
         case 3:
-            heading = "1IMPLEMENTACION";
-            images = ["./fireb1.jpg", 
-                      "./fireb2.jpg"];
+            heading = "IMPLEMENTACION";
+          //  images = ["./fireb1.jpg", 
+            //          "./fireb2.jpg"];
                       documentLink = "./ila3.pdf"; // Local document link
-                      videoLink = "./fireb/firev.mp4"; // Local video link          
-                      text = "Fotos y videos del proyecto realizado.";
+             //         videoLink = "./fireb/firev.mp4"; // Local video link          
+              //        text = "Fotos y videos del proyecto realizado.";
             break;
         case 4:
             heading = "IMPLEMENTACION";
