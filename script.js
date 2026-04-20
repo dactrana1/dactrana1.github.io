@@ -10,8 +10,8 @@ function displayImages(option) {
     switch (option) {
         case 1:
             heading = "PROYECTO IMPLEMENTADO";
-            //images = ["./ens.jpg", 
-            //          "./DCON.jpg"];
+            images = ["./ens.jpg", 
+                      "./DCON.jpg"];
             text = "Informe del proyecto realizado.";
             documentLink = "./ila2.pdf"; // Local document link ./fpb/ifpb.pdf
             break;
