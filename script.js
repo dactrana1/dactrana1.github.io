@@ -11,15 +11,15 @@ function displayImages(option) {
         case 1:
             heading = "PROYECTO IMPLEMENTADO";
             //images = ["./ens.jpg", 
-                      "./DCON.jpg"];
-            //text = "Fotos y videos del proyecto realizado.";
+            //          "./DCON.jpg"];
+            text = "Informe del proyecto realizado.";
             documentLink = "./ila2.pdf"; // Local document link ./fpb/ifpb.pdf
             break;
         case 2:
             heading = "PROYECTO IMPLEMENTADO";
             //images = ["./vg1.jpg", 
-                      "./vg2.jpg"];
-            //          text = "Fotos y videos del proyecto realizado.";
+            //          "./vg2.jpg"];
+                      text = "Informe del proyecto realizado.";
                       documentLink = "./Informe Lab 3.pdf";
                       break;
         case 3:
@@ -28,7 +28,7 @@ function displayImages(option) {
             //          "./fireb2.jpg"];
                       documentLink = "./ila3.pdf"; // Local document link
              //         videoLink = "./fireb/firev.mp4"; // Local video link          
-              //        text = "Fotos y videos del proyecto realizado.";
+                     text = "Informe del proyecto realizado.";
             break;
         case 4:
             heading = "IMPLEMENTACION";
